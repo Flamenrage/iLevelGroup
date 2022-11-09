@@ -62,7 +62,7 @@ a {
 }
 a,
 a:hover {
-    color: #665666;
+    color: #837a7a;
 }
 img {
     max-width: 100%;
@@ -348,6 +348,11 @@ input::-webkit-input-placeholder {
 }
 .navbar-brand img {
     width: 120px;
+}
+.navbar-contact {
+    background-color: #3f89e4;
+    color: rgb(255, 255, 255) !important;
+    border-radius: 8px;
 }
 .icofont-navigation-menu {
     color: #074AEA;
@@ -778,7 +783,6 @@ input::-webkit-input-placeholder {
 	font-weight: 500;
 }
 .price {
-    background-color: #665666;
     padding: 15px;
     color: #fff;
 	transition: all 0.4s;
@@ -1180,6 +1184,12 @@ h4.post-title a {
     opacity: 0.85;
     z-index: -1;
 }
+
+.concact-form-title {
+    margin-bottom: 10px;
+    color: #0a429c;
+}
+
 .contact-form,
 .contact-address {
     background: #fff;
